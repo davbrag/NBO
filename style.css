@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 5vh;
+    
+    
+}
+body{
+    background: linear-gradient(135deg,#5a43db,#ffffff);
+    text-align: center;
+   
+
+}
+.logo{
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+    text-align: right;
+    margin: 30px
+
+}
+
+.menu{
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 15px 0;
+   
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+}
+.menu a:hover {
+    color: #000000;
+}
+.boasvindas {
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boasvindas h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 60px;
+    /* estilos para h1 dentro de .boasvindas */
+}
+.boasvindas h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    /* estilos para h3 dentro de .boasvindas */
+}  
+.boasvindas i {
+    color: #f2fa0f;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.quemsomos p{
+    text-align: center;
+    justify-content:left;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+
+.historia p{
+    text-align: center;
+    justify-content:left;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    
+
+}
+
+.redesSociais {
+    margin:0;
+    padding: 15px 0;
+    margin-top: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient(135deg,#6331e2,#fff4f4);
+}
+
+.redesSociais h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: bold;
+    margin-bottom: 10px;
+    /* estilos para h1 dentro de .redesSociais */
+}
+.redesSociais h3{
+    font-size: 15px;
+}
+
+.redesSociais p{
+    text-align: left;
+    margin-left: 40px;
+    justify-content:space-around;
+}
+.redesSociais ul {
+    list-style: none;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+    
+.redesSociais a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+.redesSociais a:hover {
+    color: #390ae4;
+}
