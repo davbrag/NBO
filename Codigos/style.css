@@ -5,14 +5,21 @@
     font-family: 'Quicksand', sans-serif;
 
 
+
 }
 
 body {
     background: linear-gradient(135deg, #5a43db, #ffffff);
     text-align: center;
+    flex-direction:column;
 
 
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .logo {
     position: relative;
@@ -63,6 +70,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-size: 60px;
+    flex:110%;
     /* estilos para h1 dentro de .boasvindas */
 }
 
