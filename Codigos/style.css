@@ -17,6 +17,13 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    background-image: url('../img/Bamdeiras.webp');
+    background-image: url('../Codigos/imagens/Atividades.jpg');
+    background-image: url('../Codigos/imagens/Barracas.jpg');
+    background-image: url('../Codigos/imagens/classes1-min.jpg');
+    background-image: url('../Codigos/imagens/em-formacao.jpg');
+    background-image: url('../Codigos/imagens/logo-4.0.png');
+
 }
 
 
